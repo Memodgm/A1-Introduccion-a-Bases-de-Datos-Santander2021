@@ -29,6 +29,9 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 **Deberás entregar el archivo `.sql` correspondiente**
 
 1. Dentro del mismo servidor de bases de datos, conéctate al esquema `classicmodels`.
+	
+![image](https://user-images.githubusercontent.com/104279978/193730750-8f1b637f-6d71-48c1-8bf6-1a6fa50e76f9.png)
+
 
 2. Dentro de la tabla `employees`, obtén el apellido de todos los empleados.
 	
