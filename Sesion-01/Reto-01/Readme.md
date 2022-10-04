@@ -20,17 +20,23 @@ Usando la base de datos `tienda`, muestra la descripción de las tablas `articul
 | Tipo   | Descripción |
 |---|---|
 | int  | entero  |
-| varchar(45)  | cadena de caracteres  |
-| double  |   |
-|  double |   |
+| varchar(45)  | cadena de caracteres de 45 espacios |
+| double |   |
+| double |   |
+| int  | entero  |
 
 	
 |   |   |	
 	
+	
 	Tabla puesto
 | Tipo   | Descripción |
 |---|---|
-| int  |   |
+| int  |  entero  |
+| varchar(45)  |   |
+| double ||   |
+	
+	
 	
 <br/>
 
