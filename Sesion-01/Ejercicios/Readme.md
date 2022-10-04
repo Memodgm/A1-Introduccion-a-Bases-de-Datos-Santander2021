@@ -147,12 +147,14 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 20. Dentro de la tabla `customers`, obtén el apellido de contacto y nombre de cada cliente y ordena los resultados por apellido de forma descendente.
 
 	
+![image](https://user-images.githubusercontent.com/104279978/193729436-fc744bc1-cc01-418b-bb83-18aeb4c8731d.png)
 	
 	
 
 21. Dentro de la tabla `customers`, obtén el apellido y nombre de cada cliente y ordena los resultados por apellido de forma descendente y luego por nombre de forma ascendente.
 	
 
+![image](https://user-images.githubusercontent.com/104279978/193730138-36794409-9806-4275-972c-774f22f0ea67.png)
 	
 
 
@@ -160,10 +162,14 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 	
 
 	
+![image](https://user-images.githubusercontent.com/104279978/193730407-43d929af-0635-4348-b8bd-a27c7169ae7e.png)
+	
+	
 
 
 23. Dentro de la tabla `customers`, obtén el número de cliente, nombre de cliente y el límite de crédito de los cinco clientes con el límite de crédito más bajo diferente de 0.
 
+![image](https://user-images.githubusercontent.com/104279978/193730639-fe534fd9-f8ab-43fa-ab62-3446a919a442.png)
 	
 	
 
