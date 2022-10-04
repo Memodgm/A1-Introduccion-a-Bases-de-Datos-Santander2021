@@ -19,6 +19,7 @@ Usando la base de datos `tienda`, muestra la descripción de las tablas `articul
 | Tipo   | Descripción |
 |---|---|
 |   |   |
+|   |   |
 
 <br/>
 
