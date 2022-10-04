@@ -34,7 +34,7 @@ Usando la base de datos `tienda`, muestra la descripción de las tablas `articul
 |---|---|
 | int  |  id_puesto |
 | varchar(45)  | nombre  |
-| double || salario  |
+| double || salario |
 	
 	
 	
