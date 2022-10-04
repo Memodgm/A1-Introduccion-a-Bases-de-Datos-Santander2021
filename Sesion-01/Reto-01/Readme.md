@@ -18,7 +18,7 @@ Usando la base de datos `tienda`, muestra la descripción de las tablas `articul
 
 	
 	
-                     Tabla artículo
+                   Tabla artículo
 	
 | Tipo   | Descripción |
 |---|---|
@@ -34,7 +34,7 @@ Usando la base de datos `tienda`, muestra la descripción de las tablas `articul
 	
 	
 	
-                               Tabla puesto
+                    Tabla puesto
 	
 | Tipo   | Descripción |
 |---|---|
@@ -47,7 +47,7 @@ Usando la base de datos `tienda`, muestra la descripción de las tablas `articul
 	
 	
 	
-                      Tabla venta
+                    Tabla venta
 	
 | Tipo   | Descripción |
 |---|---|
