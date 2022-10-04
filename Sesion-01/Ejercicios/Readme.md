@@ -102,7 +102,11 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 	
 
 ![image](https://user-images.githubusercontent.com/104279978/193728047-fc474a98-b3f3-45be-a7d5-dd9c9fc16ec9.png)
+
+##version 2 
 	
+![image](https://user-images.githubusercontent.com/104279978/193732770-7852aa26-7a53-487a-abac-31040e8907f6.png)
+
 	
 14. Dentro de la tabla `customers`, obtén el nombre y país de todos los clientes cuyo país sea `USA` o `France`.
 	
