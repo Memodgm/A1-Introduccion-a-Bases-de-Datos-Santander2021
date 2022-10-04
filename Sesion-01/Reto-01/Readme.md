@@ -19,10 +19,18 @@ Usando la base de datos `tienda`, muestra la descripción de las tablas `articul
 	Tabla artículo
 | Tipo   | Descripción |
 |---|---|
-| int  |   |
-| 'varchar(45)'  |   |
+| int  | entero  |
+| varchar(45)  | cadena de caracteres  |
+| double  |   |
+|  double |   |
 
 	
+|   |   |	
+	
+	Tabla puesto
+| Tipo   | Descripción |
+|---|---|
+| int  |   |
 	
 <br/>
 
