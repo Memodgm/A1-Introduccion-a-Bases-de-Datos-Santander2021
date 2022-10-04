@@ -122,6 +122,9 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 	
 16. Dentro de la tabla `offices`, obtén el código de la oficina, ciudad, teléfono y país de aquellas oficinas que se encuentren en `USA` o `France`.
 
+	
+
+![image](https://user-images.githubusercontent.com/104279978/193731427-8c787cf7-9d48-4e5b-88bf-729db71e99b7.png)
 
 	
 	
@@ -129,6 +132,7 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 17. Dentro de la tabla `offices`, obtén el código de la oficina, ciudad, teléfono y país de aquellas oficinas que *no* se encuentren en `USA` o `France`.
 	
 
+![image](https://user-images.githubusercontent.com/104279978/193731635-bdfada3e-dbc7-413b-9bd5-bb198f088733.png)
 	
 	
 
