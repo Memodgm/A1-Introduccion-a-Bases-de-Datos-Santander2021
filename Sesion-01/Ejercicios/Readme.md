@@ -84,27 +84,48 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 11. Dentro de la tabla `employees`, obtén el apellido, nombre y código de oficina de todos los empleados cuyo cdigo de oficina sea menor o igual `4`.
 
 	
+![image](https://user-images.githubusercontent.com/104279978/193727266-13401f0d-54a3-4dc1-bb71-a8a2799cdfa8.png)
+	
+	
 12. Dentro de la tabla `customers`, obtén el nombre, país y estado de todos los clientes cuyo país sea `USA` y cuyo estado sea `CA`.
+
+
+![image](https://user-images.githubusercontent.com/104279978/193727800-833ef32d-1e32-407c-b767-3a7b8907def5.png)
 
 	
 	
 13. Dentro de la tabla `customers`, obtén el nombre, país, estado y límite de crédito de todos los clientes cuyo país sea, `USA`, cuyo estado sea `CA` y cuyo límite de crédito sea mayor a `100000`.
 
 	
+
+![image](https://user-images.githubusercontent.com/104279978/193728047-fc474a98-b3f3-45be-a7d5-dd9c9fc16ec9.png)
+	
 	
 14. Dentro de la tabla `customers`, obtén el nombre y país de todos los clientes cuyo país sea `USA` o `France`.
 	
+
+![image](https://user-images.githubusercontent.com/104279978/193728341-831f07af-3def-43cc-9fb4-893709a6ef7c.png)
+	
 	
 
-15. Dentro de la tabla `customers`, obtén el nombre, pas y límite de crédito de todos los clientes cuyo país sea `USA` o `France` y cuyo límite de crédito sea mayor a `100000`. Para este ejercicio ten cuidado con los paréntesis.
+15. Dentro de la tabla `customers`, obtén el nombre, país y límite de crédito de todos los clientes cuyo país sea `USA` o `France` y cuyo límite de crédito sea mayor a `100000`. Para este ejercicio ten cuidado con los paréntesis.
+	
 
+![image](https://user-images.githubusercontent.com/104279978/193728763-52944510-f468-4f16-be96-31e440c28711.png)
+
+	
+	
 	
 	
 16. Dentro de la tabla `offices`, obtén el código de la oficina, ciudad, teléfono y país de aquellas oficinas que se encuentren en `USA` o `France`.
 
+
+	
 	
 	
 17. Dentro de la tabla `offices`, obtén el código de la oficina, ciudad, teléfono y país de aquellas oficinas que *no* se encuentren en `USA` o `France`.
+	
+
 	
 	
 
@@ -112,23 +133,38 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 	
 	
 
+	
+	
 19. Dentro de la tabla `customers`, obtén el apellido de contacto y nombre de cada cliente y ordena los resultados por apellido de forma ascendente.
 	
 	
 
+![image](https://user-images.githubusercontent.com/104279978/193729131-6a4b8f07-9628-44dc-b254-2c916feb717f.png)
+
+
+	
+	
 20. Dentro de la tabla `customers`, obtén el apellido de contacto y nombre de cada cliente y ordena los resultados por apellido de forma descendente.
+
+	
 	
 	
 
 21. Dentro de la tabla `customers`, obtén el apellido y nombre de cada cliente y ordena los resultados por apellido de forma descendente y luego por nombre de forma ascendente.
 	
+
 	
+
 
 22. Dentro de la tabla `customers`, obtén el número de cliente, nombre de cliente y el límite de crédito de los cinco clientes con el límite de crédito más alto (top 5).
 	
+
 	
 
+
 23. Dentro de la tabla `customers`, obtén el número de cliente, nombre de cliente y el límite de crédito de los cinco clientes con el límite de crédito más bajo diferente de 0.
+
+	
 	
 
 
