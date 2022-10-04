@@ -138,7 +138,10 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 
 18. Dentro de la tabla `orders`, obtén el número de orden, número de cliente, estado y fecha de envío de todas las órdenes con el número `10165`, `10287` o `10310`.
 	
+
 	
+![image](https://user-images.githubusercontent.com/104279978/193732508-06873ac4-1c1f-449d-92a9-871980d8acd4.png)
+
 
 	
 	
