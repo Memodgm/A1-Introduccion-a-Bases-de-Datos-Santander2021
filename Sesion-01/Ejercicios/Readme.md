@@ -46,8 +46,15 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 	
 
 5. Dentro de la tabla `employees`, obtén el apellido, nombre y puesto de todos los empleados que tengan el puesto `Sales Rep`.
+	
+![image](https://user-images.githubusercontent.com/104279978/193722848-a73aad2c-a7ce-480f-ab1a-087099020d0d.png)
+
+	
 
 6. Dentro de la tabla `employees`, obtén el apellido, nombre, puesto y código de oficina de todos los empleados que tengan el puesto `Sales Rep` y código de oficina `1`.
+
+	
+	
 
 7. Dentro de la tabla `employees`, obtén el apellido, nombre, puesto y código de oficina de todos los empleados que tengan el puesto `Sales Rep` o código de oficina `1`.
 
