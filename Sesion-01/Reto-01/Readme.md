@@ -26,7 +26,6 @@ Usando la base de datos `tienda`, muestra la descripción de las tablas `articul
 | int  | cantidad |
 
 	
-|   |   |	
 	
 	
 	Tabla puesto
