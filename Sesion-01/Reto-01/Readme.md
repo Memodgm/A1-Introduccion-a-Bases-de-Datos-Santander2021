@@ -38,6 +38,17 @@ Usando la base de datos `tienda`, muestra la descripción de las tablas `articul
 	
 	
 	
+	Tabla venta
+| Tipo   | Descripción |
+|---|---|
+| int  | id_venta |
+| int  | id_articulo |
+| int  | id_empleado |
+| varchar(45)  | clave |
+| timestamp  | fecha |
+
+
+	
 	
 	
 	
