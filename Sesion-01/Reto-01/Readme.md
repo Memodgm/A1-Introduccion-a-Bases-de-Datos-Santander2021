@@ -20,7 +20,7 @@ Usando la base de datos `tienda`, muestra la descripción de las tablas `articul
 | Tipo   | Descripción |
 |---|---|
 | int  | entero  |
-| varchar(45)  | cadena de caracteres de 45 espacios |
+| varchar(45)  | cadena de caracteres tamaño 45  |
 | double |   |
 | double |   |
 | int  | entero  |
@@ -32,9 +32,9 @@ Usando la base de datos `tienda`, muestra la descripción de las tablas `articul
 	Tabla puesto
 | Tipo   | Descripción |
 |---|---|
-| int  |  entero  |
-| varchar(45)  |   |
-| double ||   |
+| int  |  id_puesto |
+| varchar(45)  | nombre  |
+| double || salario  |
 	
 	
 	
