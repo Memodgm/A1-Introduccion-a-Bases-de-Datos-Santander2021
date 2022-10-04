@@ -34,7 +34,7 @@ Usando la base de datos `tienda`, muestra la descripción de las tablas `articul
 	
 	
 	
-	##Tabla puesto
+Tabla puesto
 	
 | Tipo   | Descripción |
 |---|---|
