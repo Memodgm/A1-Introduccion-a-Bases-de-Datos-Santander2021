@@ -19,11 +19,11 @@ Usando la base de datos `tienda`, muestra la descripción de las tablas `articul
 	Tabla artículo
 | Tipo   | Descripción |
 |---|---|
-| int  | entero  |
-| varchar(45)  | cadena de caracteres tamaño 45  |
-| double |   |
-| double |   |
-| int  | entero  |
+| int  | id_articulo  |
+| varchar(45)  | nombre  |
+| double | precio |
+| double | iva  |
+| int  | cantidad |
 
 	
 |   |   |	
