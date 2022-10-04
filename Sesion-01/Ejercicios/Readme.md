@@ -31,10 +31,19 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 1. Dentro del mismo servidor de bases de datos, conéctate al esquema `classicmodels`.
 
 2. Dentro de la tabla `employees`, obtén el apellido de todos los empleados.
+	
+![image](https://user-images.githubusercontent.com/104279978/193722361-f311cb7c-f81b-4eef-8348-5382e493e32c.png)
+	
 
 3. Dentro de la tabla `employees`, obtén el apellido, nombre y puesto de todos los empleados.
+	
+![image](https://user-images.githubusercontent.com/104279978/193722572-dffd5ec1-8d87-46c4-8d6f-33e180ccae51.png)
+
 
 4. Dentro de la tabla `employees`, obtén todos los datos de cada empleado.
+	
+![image](https://user-images.githubusercontent.com/104279978/193722633-478432b1-583a-4498-afb3-9c60e7cfbe07.png)
+	
 
 5. Dentro de la tabla `employees`, obtén el apellido, nombre y puesto de todos los empleados que tengan el puesto `Sales Rep`.
 
