@@ -15,6 +15,10 @@
 ### 3. Desarrollo :rocket:
 
 Usando la base de datos `tienda`, escribe una consulta que permita obtener el top 5 de puestos por salarios.
+	
+	
+	![image](https://user-images.githubusercontent.com/104279978/193721591-152490e6-6a67-47cb-b548-f3390affe419.png)
+
 
 <br/>
 
