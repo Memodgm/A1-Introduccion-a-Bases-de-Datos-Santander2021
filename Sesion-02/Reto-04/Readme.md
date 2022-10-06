@@ -28,19 +28,13 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
 	
 	
 	
-SELECT id_empleado, min(total_ventas), max(total_ventas)
-FROM
- (SELECT clave, id_empleado, count(*) total_ventas
-      FROM venta
-      GROUP BY clave, id_empleado) AS sq
-GROUP BY id_empleado;	
-	
+![image](https://user-images.githubusercontent.com/104279978/194204937-44654e73-d22e-4e81-9c38-d89950cc1f6c.png)
+
 
 	
 - ¿Cuál es el nombre del puesto de cada empleado?
 	
-SELECT nombre, apellido_paterno, (SELECT nombre FROM puesto WHERE id_puesto = e.id_puesto)
-FROM empleado AS e;	
+![image](https://user-images.githubusercontent.com/104279978/194204999-49f6c5d1-2280-4113-ab3b-4af06ad499cf.png)	
 	
 
 <br/>
