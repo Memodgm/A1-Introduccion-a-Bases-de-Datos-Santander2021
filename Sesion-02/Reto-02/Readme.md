@@ -36,6 +36,11 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
 	
 ![image](https://user-images.githubusercontent.com/104279978/194194073-a4d03e64-c407-4fca-a562-4458a4de6b41.png)
 
+	
+	
+otra solcuion 
+	
+![image](https://user-images.githubusercontent.com/104279978/194196640-bfab80dd-524e-4196-8769-510390f02174.png)
 
 
 <br/>
