@@ -17,9 +17,21 @@
 Usando la base de datos `tienda`, escribe consultas que permitan responder las siguientes preguntas.
 
 - ¿Cuál es el promedio de salario de los puestos?
-- ¿Cuántos artículos incluyen la palabra `Pasta` en su nombre?
+	
+![image](https://user-images.githubusercontent.com/104279978/194189831-f296dafc-e5fd-4114-a4aa-0e20fa4763a2.png)
+
+-¿ Cuántos artículos incluyen la palabra pasta en su nombre?
+
 - ¿Cuál es el salario mínimo y máximo?
+	
+![image](https://user-images.githubusercontent.com/104279978/194191965-f3ea0829-5ef0-4f27-a04d-c1e73195b2eb.png)
+
+	
+
 - ¿Cuál es la suma del salario de los últimos cinco puestos agregados?
+	
+
+
 
 <br/>
 
