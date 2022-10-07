@@ -57,7 +57,8 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 	
 7. Dentro de la tabla `orderdetails`, obtén el total de cada orden.
 
-![image](https://user-images.githubusercontent.com/104279978/194456753-6d34c116-b4d9-4ec1-81ae-35d2de30d95c.png)
+![image](https://user-images.githubusercontent.com/104279978/194457777-b9a2e8af-13df-4ed5-afae-6e0d75d42def.png)
+
 	
 
 
@@ -65,11 +66,13 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 8. Dentro de la tabla `orders` obtén el número de órdenes por año.
 
 	
+![image](https://user-images.githubusercontent.com/104279978/194458142-91679cf3-567d-4070-935e-dba0ce361601.png)
+
 	
 	
 9. Obtén el apellido y nombre de los empleados cuya oficina está ubicada en `USA`.
 
-	
+
 	
 	
 10. Obtén el número de cliente, número de cheque y cantidad del cliente que ha realizado el pago más alto.
