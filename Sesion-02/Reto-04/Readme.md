@@ -20,10 +20,15 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
 
 
 - ¿Cuál es el nombre de los empleados cuyo sueldo es menor a $10,000?
+	
 Nota: sale NULL porque todos  los suledos son mayores a 10000.
+	
 1.- Las tablas puesto y empleado tienen en comùn id_puesto.
+	
 2.- Se filtrò primero en puesto por los salarios.   
+	
 3.- Luego, empleado por el nombre y apellido dd empleado.
+	
 se unen con:
 WHERE id_puesto IN(
 SELECT id_puesto
