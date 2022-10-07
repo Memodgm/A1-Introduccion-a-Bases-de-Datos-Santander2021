@@ -73,10 +73,13 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 9. Obtén el apellido y nombre de los empleados cuya oficina está ubicada en `USA`.
 
 
-	
+![image](https://user-images.githubusercontent.com/104279978/194459455-6db3fb1b-8e3c-406c-b700-a980b9e1d047.png)
+
+
 	
 10. Obtén el número de cliente, número de cheque y cantidad del cliente que ha realizado el pago más alto.
 
+	
 	
 	
 	
