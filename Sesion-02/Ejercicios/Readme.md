@@ -45,15 +45,22 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 
 5. Dentro de la tabla `employees`, obtén el número de empleado, apellido y nombre de todos los empleados cuyo nombre *no* inicia con `B`.
 
+
+![image](https://user-images.githubusercontent.com/104279978/194454572-e6408aa1-6482-4569-822d-002c7bc4bf8a.png)
 	
 	
 6. Dentro de la tabla `products`, obtén el código de producto y nombre de los productos cuyo código incluye la cadena `_20`.
 
-	
+
+![image](https://user-images.githubusercontent.com/104279978/194456068-d8bf2fd1-6bf3-4afc-a4c6-6ba45306d00d.png)
+
 	
 7. Dentro de la tabla `orderdetails`, obtén el total de cada orden.
 
+![image](https://user-images.githubusercontent.com/104279978/194456753-6d34c116-b4d9-4ec1-81ae-35d2de30d95c.png)
 	
+
+
 	
 8. Dentro de la tabla `orders` obtén el número de órdenes por año.
 
