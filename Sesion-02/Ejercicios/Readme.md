@@ -101,11 +101,13 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 
 	
 	
-	
+![image](https://user-images.githubusercontent.com/104279978/194463463-6b6391a9-a9f1-4247-b405-4e953d7f852f.png)
+
 	
 14. Dentro de la tabla `orders`, Obtén el número de órdenes que hay por cada estado.
 
-	
+![image](https://user-images.githubusercontent.com/104279978/194463717-9d1974ac-9362-4527-b694-eb03495dc31e.png)
+
 	
 	
 	
