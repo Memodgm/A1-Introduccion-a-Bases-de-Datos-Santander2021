@@ -80,16 +80,20 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 10. Obtén el número de cliente, número de cheque y cantidad del cliente que ha realizado el pago más alto.
 
 	
+![image](https://user-images.githubusercontent.com/104279978/194462209-07cfa585-8b2d-4301-91d4-3fe08c216dc1.png)
 	
 	
 	
 11. Obtén el número de cliente, número de cheque y cantidad de aquellos clientes cuyo pago es más alto que el promedio.
 
+![image](https://user-images.githubusercontent.com/104279978/194462517-b49484b4-849c-4220-bd18-d96a4590a55e.png)
 	
 	
 	
 12. Obtén el nombre de aquellos clientes que no han hecho ninguna orden.
 
+
+![image](https://user-images.githubusercontent.com/104279978/194463245-801f6e40-3f27-4c93-855f-d121f478a5fb.png)
 	
 	
 	
