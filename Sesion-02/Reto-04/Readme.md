@@ -22,12 +22,13 @@ Usando la base de datos `tienda`, escribe consultas que permitan responder las s
 - ¿Cuál es el nombre de los empleados cuyo sueldo es menor a $10,000?
 	
 Nota: sale NULL porque todos  los suledos son mayores a 10000.
-	
+
+
 1.- Las tablas puesto y empleado tienen en comùn id_puesto.
 	
 2.- Se filtrò primero en puesto por los salarios.   
 	
-3.- Luego, empleado por el nombre y apellido dd empleado.
+3.- Luego, empleado por el nombre y apellido del empleado.
 	
 se unen con:
 WHERE id_puesto IN(
@@ -40,7 +41,11 @@ SELECT id_puesto
 	
 - ¿Cuál es la cantidad mínima y máxima de ventas de cada empleado?
 	
+las tablas ventas y empleado tienen en comun id_empleado.
 	
+1.- se obtiene de la tabla ventas la cantidad de ventas que hizo cada empleado por clave , id_empleado.
+	
+2.- se hace el agrupamiento para obtener la cantidad mìnima y màxima que vendiò cada empleado  
 	
 ![image](https://user-images.githubusercontent.com/104279978/194204937-44654e73-d22e-4e81-9c38-d89950cc1f6c.png)
 
