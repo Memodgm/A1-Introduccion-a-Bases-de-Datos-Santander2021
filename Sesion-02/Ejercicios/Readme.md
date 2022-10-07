@@ -18,32 +18,80 @@ Todas las consultas que realices deberás mantenerlas dentro del editor de texto
 
 1. Dentro de la tabla `employees`, obtén el número de empleado, apellido y nombre de todos los empleados cuyo nombre empiece con `A`.
 
+	
+![image](https://user-images.githubusercontent.com/104279978/194452623-d3edcf6c-d417-4eac-a334-2b640b0ffdb4.png)
+	
+	
 2. Dentro de la tabla `employees`, obtén el número de empleado, apellido y nombre de todos los empleados cuyo apellido termina con `on`.
 
+	
+![image](https://user-images.githubusercontent.com/104279978/194453135-d8a69e7b-99cd-47c2-b686-342e63782bf6.png)
+	
+	
+	
 3. Dentro de la tabla `employees`, obtén el número de empleado, apellido y nombre de todos los empleados cuyo nombre incluye la cadena `on`.
 
+
+	
+![image](https://user-images.githubusercontent.com/104279978/194453634-5942decd-282b-4c29-a877-b71842e044d2.png)
+	
+	
 4. Dentro de la tabla `employees`, obtén el número de empleado, apellido y nombre de todos los empleados cuyos nombres tienen seis letras e inician con `G`.
+	
+
+![image](https://user-images.githubusercontent.com/104279978/194453881-e09063fd-74b9-46c3-b7bf-da3f53d98a85.png)
+	
+
 
 5. Dentro de la tabla `employees`, obtén el número de empleado, apellido y nombre de todos los empleados cuyo nombre *no* inicia con `B`.
 
+	
+	
 6. Dentro de la tabla `products`, obtén el código de producto y nombre de los productos cuyo código incluye la cadena `_20`.
 
+	
+	
 7. Dentro de la tabla `orderdetails`, obtén el total de cada orden.
 
+	
+	
 8. Dentro de la tabla `orders` obtén el número de órdenes por año.
 
+	
+	
+	
 9. Obtén el apellido y nombre de los empleados cuya oficina está ubicada en `USA`.
 
+	
+	
+	
 10. Obtén el número de cliente, número de cheque y cantidad del cliente que ha realizado el pago más alto.
 
+	
+	
+	
 11. Obtén el número de cliente, número de cheque y cantidad de aquellos clientes cuyo pago es más alto que el promedio.
 
+	
+	
+	
 12. Obtén el nombre de aquellos clientes que no han hecho ninguna orden.
 
+	
+	
+	
 13. Obtén el máximo, mínimo y promedio del número de productos en las órdenes de venta.
 
+	
+	
+	
+	
 14. Dentro de la tabla `orders`, Obtén el número de órdenes que hay por cada estado.
 
+	
+	
+	
+	
 **¡¡¡MUCHA SUERTE!!!**
 
 <br/>
