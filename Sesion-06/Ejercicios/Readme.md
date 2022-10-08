@@ -20,6 +20,28 @@ La base de datos y colección que debes usar es `sample_airbnb.listingsAndReview
 
 El ejercicio consiste en obtener todas las publicaciones que tengan 50 o más comentarios, que la valoración sea mayor o igual a 80, que cuenten con conexión a Internet vía cable y estén ubicadas en Brazil.
 
+
+--
+-
+-
+-
+-
+ -
+ /**
+ * USANDO $match
+ * query: The query in MQL.
+ */
+{
+  number_of_reviews: {$gte:50},
+  "review_scores.review_scores_rating": {$gte: 80},
+  amenities: {$in: [/Ethernet/]},
+  "address.country_code": "BR" 
+}
+
+
+
+
+
 **¡¡¡MUCHA SUERTE!!!**
 
 <br/>
