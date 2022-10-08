@@ -17,7 +17,13 @@
 Todos los ejercicios debes hacerlos usando la base `classicmodels`.
 
 Todas las consultas que realices deberás mantenerlas dentro del editor de textos de MySQL Workbench. Al finalizar, guarda este archivo, llendo al menú `File` > `Save script`.  **Recuerda añadir a todos los nombres te tus vistas el sufijo con tu identificador**.
-
+-
+	-
+	-
+	-
+	-
+	-
+	
 ## Para estas consultas usa INNER JOIN*
 
 1. Obtén la cantidad de productos de cada orden.
