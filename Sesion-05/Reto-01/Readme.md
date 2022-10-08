@@ -16,9 +16,54 @@
 
 Usando la base de datos `sample_mflix`, proyecta los datos que se solicitan.
 
+-
+-
+-
+
+
 - Fecha, nombre y texto de cada comentario.
+
+
+{date:1, name:1, text:1}
+
+![image](https://user-images.githubusercontent.com/104279978/194728015-53553006-f16f-4160-a2ea-f1fee27805d7.png)
+
+
+
+
+
+
+
 - Título, elenco y año de cada película.
+
+
+{title:1, cast:1, year:1}
+
+
+![image](https://user-images.githubusercontent.com/104279978/194728024-67aa6473-fd73-4b1c-932f-10f1de2eaeb6.png)
+
+
+
+
+
+
+
+
 - Nombre y contraseña de cada usuario.
+
+
+
+
+{name:1, password:1}	
+
+
+
+![image](https://user-images.githubusercontent.com/104279978/194728032-9cb371a5-4881-4f89-baa1-f77d5e7708be.png)
+
+
+
+
+
 
 <br/>
 
