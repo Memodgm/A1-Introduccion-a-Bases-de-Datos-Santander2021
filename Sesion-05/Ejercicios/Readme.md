@@ -142,7 +142,8 @@ Todas las consultas que realices deberás mantenerlas dentro del MongoDB Compass
 
 
 13. Obtén el viaje con menor duración.
-
+o 
+13.b Obtén la historia menos comentada.
 
 
 /* Ordenamiento. */
