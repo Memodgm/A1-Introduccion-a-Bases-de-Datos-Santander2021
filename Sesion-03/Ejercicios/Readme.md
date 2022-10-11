@@ -150,6 +150,32 @@ ORDER BY customerName, checkNumber;
 
 9. Escoge 3 consultas de los ejercicios anteriores, crea una vista y escribe una consulta para cada una.
 
+ -- > MI USUARIO NO TIENE PRIVILEGIOS PARA CREAR VISTAS Error Code: 1142
+ 
+ -- > Script para la creación de la vista de la consulta 1
+CREATE VIEW Productos_por_Orden AS 
+(SELECT orderdetails.orderNumber AS "Número de Orden", sum(quantityOrdered) AS "Cantidad"
+FROM orderdetails
+JOIN  orders
+	ON orderdetails.orderNumber = orders.orderNumber
+GROUP BY orderdetails.orderNumber);			
+
+ -- > Script para la creación de la vista de la consulta 2
+ CREATE VIEW Costo_por_Orden AS 
+(SELECT orders.orderNumber AS "Número de orden", orders.status AS "Estado", sum(orderdetails.priceEach) "Total"
+FROM orders
+JOIN  orderdetails
+	ON orders.orderNumber = orderdetails.orderNumber
+GROUP BY orders.orderNumber);
+
+  -- > Script para la creación de la vista de la consulta 3
+CREATE VIEW Precio_por_Pieza AS
+(SELECT orders.orderNumber AS "Número de Orden", orders.orderDate AS "Fecha", orderdetails.orderLineNumber AS "Línea", products.productName AS "Producto", orderdetails.quantityOrdered AS "Piezas", orderdetails.priceEach AS "Precio Unitario"
+FROM orders
+JOIN orderdetails
+	ON orders.orderNumber = orderdetails.orderNumber
+JOIN products
+	ON orderdetails.productCode = products.productCode);	
 
 
 
