@@ -22,7 +22,9 @@
 
 Agregamos el encabezado correspondiente a movies.dat y reemplazamos el símbolo :: por ,. Guardamos el archivo como movies.csv.
 
-id,title,generos
+## id,title,generos
+
+
 1,Toy Story (1995),Animation|Children's|Comedy
 2,Jumanji (1995),Adventure|Children's|Fantasy
 3,Grumpier Old Men (1995),Comedy|Romance
@@ -49,8 +51,12 @@ id,title,generos
 -
 -
 Agregamos el encabezado correspondiente a ratings.dat y reemplazamos el símbolo :: por ,. Guardamos el archivo como ratings.csv.
+-
+-
 
-userid,movieid,rating,time_stamp
+## userid,movieid,rating,time_stamp
+
+
 1,1193,5,978300760
 1,661,3,978302109
 1,914,3,978301968
