@@ -42,7 +42,9 @@ Primero, obtenemos la relación con $lookup.
 -
 Posteriormente, obtenemos el objeto del arreglo, su campo password y finalmente proyectamos los datos necesarios.
 
-$addFields
+-
+-
+	$addFields
 {
   usuario_objeto: {$arrayElemAt: ["$usuario", 0]}
 }
@@ -50,7 +52,12 @@ $addFields
 {
   usuario_password: "$usuario_objeto.password"
 }
-$project
+
+	
+	
+	-
+	-
+	$project
 {
   _id:0,
   name:1,
