@@ -22,6 +22,57 @@ Usando las colecciones `comments` y `users`, se requiere conocer el correo y con
 
 ---
 
+
+
+Primero, obtenemos la relación con $lookup.
+
+{
+  from: 'users',
+  localField: 'name',
+  foreignField: 'name',
+  as: 'usuario'
+}
+
+![image](https://user-images.githubusercontent.com/104279978/196056756-dda6bda3-664a-4a21-98eb-8568ba184637.png)
+
+
+
+
+-
+-
+Posteriormente, obtenemos el objeto del arreglo, su campo password y finalmente proyectamos los datos necesarios.
+
+$addFields
+{
+  usuario_objeto: {$arrayElemAt: ["$usuario", 0]}
+}
+$addFields
+{
+  usuario_password: "$usuario_objeto.password"
+}
+$project
+{
+  _id:0,
+  name:1,
+  email:1,
+  usuario_password:1
+}
+
+
+
+![image](https://user-images.githubusercontent.com/104279978/196056774-7666f5e3-d211-49ad-830a-b2c307a7f0d4.png)
+
+
+
+
+
+
+
+
+
+
+
+
 <br/>
 
 [`Anterior`](../Ejemplo-02/Readme.md) | [`Siguiente`](../Readme.md)   
