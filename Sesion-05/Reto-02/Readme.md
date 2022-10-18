@@ -18,17 +18,23 @@ Usando la base de datos `sample_mflix`, agrega proyeccciones, filtros, ordenamie
 -
 -
 -
+-
+	-
+	
 
 	
-## Ahora no se pusieron solo en project , checarlo 	
-## Se pusieron en filter
+### Ahora no se pusieron solo en filter , checarlo 	
+
+	
 	
 - ¿Qué comentarios ha hecho Greg Powell?
 
 
 {name: "Greg Powell"}
 
+	
 ![image](https://user-images.githubusercontent.com/104279978/194728062-64f0bda8-9372-4254-bc6e-92243ad8a46e.png)
+
 
 
 
@@ -53,10 +59,10 @@ Usando la base de datos `sample_mflix`, agrega proyeccciones, filtros, ordenamie
 
 Para responder esta pregunta, necesitamos tres cosas.
 
-i.- Proyectar el número de comentarios
+i.- Proyectar el número de comentarios en project 
 {num_mflix_comments: 1}	
 
-ii.-Ordenar el número de comentarios de forma descendente.
+ii.-Ordenar el número de comentarios de forma descendente en sort.
 {num_mflix_comments:-1}
 
 iii.-Limitar los resultados a 1.
@@ -75,10 +81,10 @@ iii.-Limitar los resultados a 1.
 
 Para responder esta pregunta, necesitamos tres cosas.
 
-i.-Proyectar el título de las películas.
+i.-Proyectar el título de las películas en project.
 {title: 1}	
 
-ii.-Ordenar el número de comentarios de forma descendente.
+ii.-Ordenar el número de comentarios de forma descendente en sort.
 {num_mflix_comments: -1}
 
 iii.-Limitar los resultados a 5.
