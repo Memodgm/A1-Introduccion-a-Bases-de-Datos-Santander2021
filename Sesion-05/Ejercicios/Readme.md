@@ -24,9 +24,9 @@ Busca la última consulta y agrégala a favoritos presionando el ícono con la e
 -
 -
 
-/ 1. Obtén los datos de contacto de cada compañía.
+## 1. Obtén los datos de contacto de cada compañía.
 
-/* Proyección. */
+ en Proyección.
 -
 -
 
@@ -34,20 +34,20 @@ Busca la última consulta y agrégala a favoritos presionando el ícono con la e
 
 
 
-2. Obtén el identificador de la clase de cada calificación.
+## 2. Obtén el identificador de la clase de cada calificación.
 
 
-/* Proyección. */
+en  Proyección. 
 -
 -
 {class_id: 1}
 
 
 
-3. Obtén el nombre de todas las compañias fundadas en octubre.
+## 3. Obtén el nombre de todas las compañias fundadas en octubre.
 
 
-/* Filtro. */
+en Filtro
 -
 -
 
@@ -56,16 +56,16 @@ Busca la última consulta y agrégala a favoritos presionando el ícono con la e
 
 
 
-4. Obtén el nombre de todas las compañías fundadas en 2008.
+## 4. Obtén el nombre de todas las compañías fundadas en 2008.
 
 
-/* Filtro. */
+en Filtro. 
 -
 -
 {founded_year: 2008}
 -
 
-/* Proyección. */
+en Proyección. 
 -
 
 -
@@ -75,12 +75,12 @@ Busca la última consulta y agrégala a favoritos presionando el ícono con la e
 
 
 
-5. Obtén todos los *post* del autor `machine`.
+## 5. Obtén todos los *post* del autor `machine`.
 
 
 
 
-/* Filtro. */
+en Filtro. 
 -
 -
 {author:"machine"}
@@ -88,22 +88,21 @@ Busca la última consulta y agrégala a favoritos presionando el ícono con la e
 
 
 
-6. Obtén todas las calificaciones provenientes de los grupos `357`, `57` y `465`.
+## 6. Obtén todas las calificaciones provenientes de los grupos `357`, `57` y `465`.
 
 
-
-/* Filtro. */
+en  Filtro. 
 -
 -
 {class_id: {$in: [350, 57, 465]}}
 
 
 
-7. Obtén todas las compañías fundadas en octubre del 2008.
+## 7. Obtén todas las compañías fundadas en octubre del 2008.
 
 
 
-/* Filtro. */
+en Filtro. 
 -
 -
 {founded_year: 2008, founded_month:10}
@@ -111,77 +110,77 @@ Busca la última consulta y agrégala a favoritos presionando el ícono con la e
 
 
 
-8. Obtén todas las compañias con más de 50 empleados. 
+## 8. Obtén todas las compañias con más de 50 empleados. 
 
 
-/* Filtro. */
+en  Filtro.
 -
 -
 {number_of_employees: {$gt: 50}}
 
 
 
-9. Obtén las rutas con un número de paradas entre 1 y 5.
+## 9. Obtén las rutas con un número de paradas entre 1 y 5.
 
 
 
-/* Filtro. */
+en Filtro. 
 -
 -
 {$and: [{stops: {$gte: 1}}, {stops: {$lte: 5}}]}
 
 
 
-10. Obtén la empresa con el menor número de empleados.
+## 10. Obtén la empresa con el menor número de empleados.
 
 
 
-/* Filter. */
+en Filter.
 -
 -
 {number_of_employees: {$ne:null}}
 -
 -
-/* Ordenamiento. */
+en  Ordenamiento. 
 -
 
 -
 {number_of_employees:1}
 -
 
-/* Limit. */
+en Limit. 
 1
 
 
 
-11. Obtén la empresa con el mayor número de empleados.
+## 11. Obtén la empresa con el mayor número de empleados.
 
 
 
-/* Ordenamiento. */
+en Ordenamiento. 
 -
 -
 {number_of_employees:-1}
 -
 -
 
-/* Limit. */
+en Limit. 
 -
 
 1
 
 
-12. Obtén el viaje con mayor duración.
+## 12. Obtén el viaje con mayor duración.
 
 
 
-/* Ordenamiento. */
+en Ordenamiento. 
 -
 
 {tripduration: -1}
 -
 -
-/* Limit. */
+en  Limit. 
 -
 -
 1
@@ -190,12 +189,12 @@ Busca la última consulta y agrégala a favoritos presionando el ícono con la e
 
 
 
-13. Obtén el viaje con menor duración.
+## 13. Obtén el viaje con menor duración.
 o 
 13.b Obtén la historia menos comentada.
 
 
-/* Ordenamiento. */
+en Ordenamiento.
 -
 -
 -
@@ -204,7 +203,7 @@ o
 -
 -
 
-/* Limit. */
+en  Limit. 
 -
 -
 1
