@@ -42,7 +42,10 @@ Usando la base de datos `sample_mflix`, agrega proyeccciones, filtros, ordenamie
 
 - ¿Qué comentarios han hecho Greg Powell o Mercedes Tyler?
 
-
+poner en filter
+	-
+	-
+	
 
 {$or: [{name: "Greg Powell"}, {name: "Mercedes Tyler"}]}
 
