@@ -20,8 +20,9 @@ Usando la base de datos `sample_mflix`, agrega proyeccciones, filtros, ordenamie
 -
 
 	
-## Ahora no se pusieron solo en filter , checarlo 	
-
+## Ahora no se pusieron solo en project , checarlo 	
+## Se pusieron en filter
+	
 - ¿Qué comentarios ha hecho Greg Powell?
 
 
