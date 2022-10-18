@@ -77,6 +77,9 @@ ii.-Ordenar el número de comentarios de forma descendente en sort.
 {num_mflix_comments:-1}
 
 iii.-Limitar los resultados a 1.
+*
+* en limit 1
+	
 
 
 
@@ -105,6 +108,8 @@ ii.-Ordenar el número de comentarios de forma descendente en sort.
 {num_mflix_comments: -1}
 
 iii.-Limitar los resultados a 5.
+-
+* en limit 5
 
 ![image](https://user-images.githubusercontent.com/104279978/194728118-8055eec9-f67e-425b-80fe-d55286ed5124.png)
 
