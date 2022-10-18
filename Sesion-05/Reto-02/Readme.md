@@ -25,7 +25,8 @@ Usando la base de datos `sample_mflix`, agrega proyeccciones, filtros, ordenamie
 	
 ### Ahora no se pusieron solo en filter , checarlo 	
 
-	
+![image](https://user-images.githubusercontent.com/104279978/196325161-2de54236-9b8d-46ae-b05d-09ea6a5e01ae.png)
+
 	
 - ¿Qué comentarios ha hecho Greg Powell?
 
