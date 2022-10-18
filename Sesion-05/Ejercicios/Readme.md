@@ -25,6 +25,9 @@ Todas las consultas que realices deberás mantenerlas dentro del MongoDB Compass
 1. Obtén los datos de contacto de cada compañía.
 
 /* Proyección. */
+-
+-
+
 {email_address:1, phone_number:1}
 
 
@@ -33,6 +36,8 @@ Todas las consultas que realices deberás mantenerlas dentro del MongoDB Compass
 
 
 /* Proyección. */
+-
+-
 {class_id: 1}
 
 
@@ -41,6 +46,9 @@ Todas las consultas que realices deberás mantenerlas dentro del MongoDB Compass
 
 
 /* Filtro. */
+-
+-
+
 {founded_month: 10}
 
 
@@ -50,8 +58,15 @@ Todas las consultas que realices deberás mantenerlas dentro del MongoDB Compass
 
 
 /* Filtro. */
+-
+-
 {founded_year: 2008}
+-
+
 /* Proyección. */
+-
+
+-
 {name:1}
 
 
@@ -64,6 +79,8 @@ Todas las consultas que realices deberás mantenerlas dentro del MongoDB Compass
 
 
 /* Filtro. */
+-
+-
 {author:"machine"}
 
 
@@ -74,6 +91,8 @@ Todas las consultas que realices deberás mantenerlas dentro del MongoDB Compass
 
 
 /* Filtro. */
+-
+-
 {class_id: {$in: [350, 57, 465]}}
 
 
@@ -83,6 +102,8 @@ Todas las consultas que realices deberás mantenerlas dentro del MongoDB Compass
 
 
 /* Filtro. */
+-
+-
 {founded_year: 2008, founded_month:10}
 
 
@@ -92,6 +113,8 @@ Todas las consultas que realices deberás mantenerlas dentro del MongoDB Compass
 
 
 /* Filtro. */
+-
+-
 {number_of_employees: {$gt: 50}}
 
 
@@ -101,6 +124,8 @@ Todas las consultas que realices deberás mantenerlas dentro del MongoDB Compass
 
 
 /* Filtro. */
+-
+-
 {$and: [{stops: {$gte: 1}}, {stops: {$lte: 5}}]}
 
 
@@ -110,9 +135,18 @@ Todas las consultas que realices deberás mantenerlas dentro del MongoDB Compass
 
 
 /* Filter. */
+-
+-
 {number_of_employees: {$ne:null}}
+-
+-
 /* Ordenamiento. */
+-
+
+-
 {number_of_employees:1}
+-
+
 /* Limit. */
 1
 
@@ -123,8 +157,15 @@ Todas las consultas que realices deberás mantenerlas dentro del MongoDB Compass
 
 
 /* Ordenamiento. */
+-
+-
 {number_of_employees:-1}
+-
+-
+
 /* Limit. */
+-
+
 1
 
 
@@ -133,8 +174,14 @@ Todas las consultas que realices deberás mantenerlas dentro del MongoDB Compass
 
 
 /* Ordenamiento. */
+-
+
 {tripduration: -1}
+-
+-
 /* Limit. */
+-
+-
 1
 
 
@@ -147,8 +194,17 @@ o
 
 
 /* Ordenamiento. */
+-
+-
+-
+
 {tripduration: -1}
+-
+-
+
 /* Limit. */
+-
+-
 1
 
 
