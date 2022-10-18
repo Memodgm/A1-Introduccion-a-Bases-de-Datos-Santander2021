@@ -26,7 +26,7 @@ Busca la última consulta y agrégala a favoritos presionando el ícono con la e
 
 ## 1. Obtén los datos de contacto de cada compañía.
 
- en Proyección.
+  en Proyección.
 -
 -
 
@@ -37,7 +37,7 @@ Busca la última consulta y agrégala a favoritos presionando el ícono con la e
 ## 2. Obtén el identificador de la clase de cada calificación.
 
 
-en  Proyección. 
+ en  Proyección. 
 -
 -
 {class_id: 1}
