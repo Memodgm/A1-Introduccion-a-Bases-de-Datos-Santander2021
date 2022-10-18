@@ -23,6 +23,11 @@ Busca la última consulta y agrégala a favoritos presionando el ícono con la e
 -
 -
 -
+	
+
+	
+![image](https://user-images.githubusercontent.com/104279978/196325033-069e046c-1943-4527-9ef1-62fb5bedf32c.png)
+	
 
 ## 1. Obtén los datos de contacto de cada compañía.
 
@@ -37,7 +42,7 @@ Busca la última consulta y agrégala a favoritos presionando el ícono con la e
 ## 2. Obtén el identificador de la clase de cada calificación.
 
 
- en  Proyección. 
+*en  Proyección. 
 -
 -
 {class_id: 1}
@@ -47,7 +52,7 @@ Busca la última consulta y agrégala a favoritos presionando el ícono con la e
 ## 3. Obtén el nombre de todas las compañias fundadas en octubre.
 
 
-en Filtro
+- en Filtro
 -
 -
 
@@ -59,13 +64,13 @@ en Filtro
 ## 4. Obtén el nombre de todas las compañías fundadas en 2008.
 
 
-en Filtro. 
+*en Filtro. 
 -
 -
 {founded_year: 2008}
 -
 
-en Proyección. 
+* en Proyección. 
 -
 
 -
@@ -80,7 +85,7 @@ en Proyección.
 
 
 
-en Filtro. 
+* en Filtro. 
 -
 -
 {author:"machine"}
@@ -91,7 +96,7 @@ en Filtro.
 ## 6. Obtén todas las calificaciones provenientes de los grupos `357`, `57` y `465`.
 
 
-en  Filtro. 
+* en  Filtro. 
 -
 -
 {class_id: {$in: [350, 57, 465]}}
@@ -102,7 +107,7 @@ en  Filtro.
 
 
 
-en Filtro. 
+* en Filtro. 
 -
 -
 {founded_year: 2008, founded_month:10}
@@ -113,7 +118,7 @@ en Filtro.
 ## 8. Obtén todas las compañias con más de 50 empleados. 
 
 
-en  Filtro.
+* en  Filtro.
 -
 -
 {number_of_employees: {$gt: 50}}
@@ -124,7 +129,7 @@ en  Filtro.
 
 
 
-en Filtro. 
+* en Filtro. 
 -
 -
 {$and: [{stops: {$gte: 1}}, {stops: {$lte: 5}}]}
@@ -135,20 +140,22 @@ en Filtro.
 
 
 
-en Filter.
+* en Filter.
 -
 -
 {number_of_employees: {$ne:null}}
 -
 -
-en  Ordenamiento. 
+* en  Ordenamiento. 
 -
 
 -
 {number_of_employees:1}
 -
 
-en Limit. 
+*en Limit. 
+-
+-
 1
 
 
@@ -157,14 +164,14 @@ en Limit.
 
 
 
-en Ordenamiento. 
+* en Ordenamiento. 
 -
 -
 {number_of_employees:-1}
 -
 -
 
-en Limit. 
+* en Limit. 
 -
 
 1
@@ -174,13 +181,13 @@ en Limit.
 
 
 
-en Ordenamiento. 
+* en Ordenamiento. 
 -
 
 {tripduration: -1}
 -
 -
-en  Limit. 
+* en  Limit. 
 -
 -
 1
@@ -194,7 +201,7 @@ o
 13.b Obtén la historia menos comentada.
 
 
-en Ordenamiento.
+* en Ordenamiento.
 -
 -
 -
@@ -203,7 +210,7 @@ en Ordenamiento.
 -
 -
 
-en  Limit. 
+* en  Limit. 
 -
 -
 1
