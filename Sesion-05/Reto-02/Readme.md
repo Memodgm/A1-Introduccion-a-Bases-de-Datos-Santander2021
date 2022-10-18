@@ -63,9 +63,16 @@ poner en filter
 Para responder esta pregunta, necesitamos tres cosas.
 
 i.- Proyectar el número de comentarios en project 
+	-
+	-
+	
 {num_mflix_comments: 1}	
 
 ii.-Ordenar el número de comentarios de forma descendente en sort.
+	-
+	-
+	-
+	
 {num_mflix_comments:-1}
 
 iii.-Limitar los resultados a 1.
@@ -85,9 +92,15 @@ iii.-Limitar los resultados a 1.
 Para responder esta pregunta, necesitamos tres cosas.
 
 i.-Proyectar el título de las películas en project.
+	-
+	-
+	
 {title: 1}	
 
 ii.-Ordenar el número de comentarios de forma descendente en sort.
+-
+-
+	
 {num_mflix_comments: -1}
 
 iii.-Limitar los resultados a 5.
