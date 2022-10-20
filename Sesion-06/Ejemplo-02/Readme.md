@@ -30,6 +30,9 @@
    ![imagen](imagenes/s5e21.png)
 
 2. De la misma forma podemos acceder a los elementos de un arreglo mediante sus índices. Por ejemplo, en la misma base de datos se tiene el arreglo `amenities`. Para acceder al segundo elemento usamos el índice 1. Los elementos comienzan a contarse a partir del 0. Más adelante mediante el uso de agregaciones obtendemos los elementos de un arreglo.
+   
+![image](https://user-images.githubusercontent.com/104279978/196833316-3b294c55-4b62-4d93-9066-d8129ac3a7e3.png)
+
 
    De momento, podemos usar la función `$in` que permite filtrar mediante los elementos contenidos en el arreglo, por ejemplo, queremos las propiedades que tengan cocina, para ello usamos el filtro:
 
