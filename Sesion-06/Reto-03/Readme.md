@@ -48,12 +48,12 @@ Dado que contaremos los registros no necesitamos campo, así que ponemos      _i
 
 Para agrupar usaremos la función $sum con el parámetro 1. Es decir, por cada documento sumará un 1, trayendo al final el total de documentos.
 
-{
+
    _id: null,
    total: {
       $sum: 1
    }
-}
+
 
 
 ![image](https://user-images.githubusercontent.com/104279978/194728402-4166e950-211d-427e-8905-d1e391d9c36d.png)
