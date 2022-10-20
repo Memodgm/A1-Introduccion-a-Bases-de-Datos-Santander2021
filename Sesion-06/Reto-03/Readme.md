@@ -23,12 +23,17 @@ encontrar el número de publicaciones que tienen conexión a Internet, sea desde
 -
 -
 
+## tener cuidado de no agregar más corchetes porque puede dar error.
 
-1.- Primero filtramos los documentos con Internet desde Wifi o desde cable. Para ello usamos $match que permite realizar filtros dentro de agregaciones.
+1.- Primero filtramos los documentos con Internet desde Wifi o desde cable. Para ello usamos
+	
+	$match 
+	
+que permite realizar filtros dentro de agregaciones.
 
-{
+
    amenities: {$in: ["Wifi", "Ethernet"]}
-}
+
 
 
 ![image](https://user-images.githubusercontent.com/104279978/194728391-a8aa1d17-95b4-44a1-a374-6bb7ed1b70ee.png)
