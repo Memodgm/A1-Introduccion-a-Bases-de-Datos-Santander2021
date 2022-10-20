@@ -14,7 +14,10 @@
 
 ### 3. Desarrollo :rocket:
 
-Usando la colección `sample_airbnb.listingsAndReviews`, mediante el uso de agregaciones, encontrar el número de publicaciones que tienen conexión a Internet, sea desde Wifi o desde cable (Ethernet).
+Usando la colección `sample_airbnb.listingsAndReviews`, mediante el uso de agregaciones, 
+![image](https://user-images.githubusercontent.com/104279978/196840837-af25414f-2e2d-40b8-94a5-ec7df086ca26.png)
+
+encontrar el número de publicaciones que tienen conexión a Internet, sea desde Wifi o desde cable (Ethernet).
 
 -
 -
