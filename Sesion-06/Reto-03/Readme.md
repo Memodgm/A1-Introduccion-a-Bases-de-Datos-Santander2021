@@ -23,7 +23,7 @@ encontrar el número de publicaciones que tienen conexión a Internet, sea desde
 -
 -
 
-## tener cuidado de no agregar más corchetes porque puede dar error.
+## Debe mostrar automaticamente la previsualización al agregar la consulta , si no aparece es porque se agregaron corchetes de más.
 
 1.- Primero filtramos los documentos con Internet desde Wifi o desde cable. Para ello usamos
 	
@@ -38,9 +38,13 @@ que permite realizar filtros dentro de agregaciones.
 
 ![image](https://user-images.githubusercontent.com/104279978/194728391-a8aa1d17-95b4-44a1-a374-6bb7ed1b70ee.png)
 
-2.- Ahora contamos el número de registros resultantes con $group. Los agrupamientos al igual que en SQL necesitan un campo por el cual agrupar y una función de agrupamiento.
+2.- Ahora contamos el número de registros resultantes con
+	
+	$group
+	
+ Los agrupamientos al igual que en SQL necesitan un campo por el cual agrupar y una función de agrupamiento.
 
-Dado que contaremos los registros no necesitamos campo, así que ponemos _id: null.
+Dado que contaremos los registros no necesitamos campo, así que ponemos      _id: null.
 
 Para agrupar usaremos la función $sum con el parámetro 1. Es decir, por cada documento sumará un 1, trayendo al final el total de documentos.
 
