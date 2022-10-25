@@ -16,7 +16,10 @@
 
 Usando el *pipeline* que generaste en el Reto 2, genera la vista correspondiente.
 	
+-
+-
 	
+en el reto 2 poner create view - ponerle nombre 
 	
 	
 ![image](https://user-images.githubusercontent.com/104279978/197662709-ec837a48-0e01-4552-809f-e69f0d065bb8.png)
