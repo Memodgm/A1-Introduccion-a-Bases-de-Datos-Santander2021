@@ -16,6 +16,9 @@
 
 Con base en el ejemplo 1, modifica el agrupamiento para que muestre el costo promedio por habitación por país de las propiedades de tipo casa.
 
+Cada que agreguemos un filtro usar boton
+
+![image](https://user-images.githubusercontent.com/104279978/197655164-84a0cf14-4ef5-4160-9d19-a8a7ced293b6.png)
 
 -
 -
