@@ -35,7 +35,9 @@ Filtramos las propeidades con $match
 -
 -
 
-Agregamos el costo por recámara con $addFields
+Agregamos el costo por recámara con
+	
+$addFields
 
 {
    costo_recamara: {$divide: ["$price", "$bedrooms"]}
@@ -48,7 +50,9 @@ Agregamos el costo por recámara con $addFields
 
 -
 -
-Agrupamos la suma de recamaras y del total agrupando en este caso por país. Para ello usamos $group.
+Agrupamos la suma de recamaras y del total agrupando en este caso por país. Para ello usamos
+	
+$group.
 
 {
   _id: "$address.country",
@@ -68,7 +72,11 @@ Agrupamos la suma de recamaras y del total agrupando en este caso por país. Par
 
 -
 -
-Agregamos el campo costo promedio para cada pas con $addFields, creamos un alias al _id para hacer más claro el valor que guarda.
+Agregamos el campo costo promedio para cada pas con
+	
+$addFields
+	
+, creamos un alias al _id para hacer más claro el valor que guarda.
 
 {
   pais: "$_id",
