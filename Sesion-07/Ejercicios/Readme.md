@@ -26,4 +26,9 @@ El ejercicio consiste en obtener, por país, el número de películas que hay de
 
 **¡¡¡MUCHA SUERTE!!!**
 
+
+
+![image](https://user-images.githubusercontent.com/104279978/197665695-b6a84b22-94fb-438e-b5dc-3a095f9f0622.png)
+
+
 [`Anterior`](../Readme.md) | [`Siguiente`](../Readme.md)   
