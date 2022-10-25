@@ -24,7 +24,9 @@ El ejercicio consiste en obtener, por país, el número de películas que hay de
 | USA  | Drama  | 20        |
 | ...  | ...    | ...       |
 
-**¡¡¡MUCHA SUERTE!!!**
+
+	
+son temas que no se vieron en clase pero se revisó la documentación de mongo.
 
 
 
